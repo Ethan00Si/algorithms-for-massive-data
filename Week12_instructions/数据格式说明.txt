@@ -1,0 +1,40 @@
+======= 数据集说明 =======
+D: number of documents
+W: number of words in the vocabulary
+NNZ: number of nonzero counts in the bag-of-words
+
+These data sets have no class labels, and for copyright reasons no filenames or other document-level metadata. 
+
+The format of the docword.*.txt file is 3 header lines, followed by NNZ triples: 
+--- 
+D 
+W 
+NNZ 
+docID wordID count 
+docID wordID count 
+docID wordID count 
+docID wordID count 
+... 
+docID wordID count 
+docID wordID count 
+docID wordID count 
+
+
+======= 参数说明 =======
+k-shingle: k=1
+minhash: hash function的个数K自定义，请说明ε,δ的取值
+LSH: s,b,r自定义
+最近邻查询：查询点自定义
+
+
+======= 程序要求 =======
+注意区分功能模块
+要有必要的注释、运行提示
+
+
+======= 提交内容 =======
+源代码
+实验报告
+LSH_buckets.txt
+最近邻查询结果
+
